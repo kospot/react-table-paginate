@@ -1,0 +1,17 @@
+.yw-table{table-layout: fixed;text-align: center;width: 100%;border: 1px solid #ddd;}
+.yw-table tr>td{overflow: hidden;text-overflow: ellipsis;word-break: break-all;white-space: nowrap;padding: 5px;}
+.yw-table>tbody>tr:nth-child(odd)>td,.yw-table>tbody>tr:nth-child(odd)>th {background-color: #e7e7e7;}
+.yw-table>thead>tr>th{letter-spacing: 2px;text-align: center;padding: 10px;}
+.yw-table>tbody>tr:hover {background-color: #F8ED9C;cursor: default; }
+.yw-table>tbody>tr:hover td{background:none;}
+
+.page-info-wpr{text-align: center;margin-top: 5px;z-index: 10;position: relative;}
+.page-info-wpr .total{margin-left: 15px;}
+.page-info-wpr .prevNum,.page-info-wpr .nextNum,.page-info-wpr .num{display: inline-block;border: 1px solid #d6d6d6;
+    margin: 0 5px;padding: 0px 5px;cursor: pointer;color: #666;}
+.page-info-wpr .prevNum:hover,.page-info-wpr .nextNum:hover,.page-info-wpr .num:hover{background: #ebebeb;}
+.page-info-wpr .hide{display: none;}
+.page-info-wpr .current{background: #06c970; color: #fff;}
+.page-info-wpr .current:hover{background: #06c970;}
+.page-info-wpr .firstNum, .page-info-wpr .lastNum{cursor: pointer;}
+.page-info-wpr .spot{border: none;}
